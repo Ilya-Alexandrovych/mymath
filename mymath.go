@@ -50,5 +50,5 @@ func IsInf(f float64, sign int) bool {
 }
 
 func IsNaN(f float64) (is bool) {
-return math.IsNaN(f float64) (is bool)
+	return math.IsNaN(f)
 }
