@@ -43,3 +43,8 @@ func Acosh(x float64) float64 {
 func Asin(x float64) float64 {
 	return math.Asin(x)
 }
+
+func IsInf(f float64, sign int) bool {
+
+	return math.IsInf(f, sign)
+}
